@@ -1,0 +1,28 @@
+# 运行时生成，不应提交
+.douyin_profile/
+.links.txt
+*.mp4
+*.webm
+*.flv
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地图标覆盖（如换成自定义图片）
+icon.local.ico
