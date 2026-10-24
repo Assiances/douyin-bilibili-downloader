@@ -1,0 +1,16 @@
+* text=auto
+
+# 保持 LF，避免跨平台 diff 噪音
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# Windows 批处理必须 CRLF
+*.bat  text eol=crlf
+
+# 二进制
+*.png  binary
+*.ico  binary
+*.jpg  binary
+*.zip  binary
+*.exe  binary
